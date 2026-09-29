@@ -8,7 +8,8 @@
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
 [![Tests: 8 passed](https://img.shields.io/badge/tests-8_passed-brightgreen.svg)](tests/test_bench.py)
 [![Offline: no API key](https://img.shields.io/badge/offline-no_API_key-orange.svg)](experiments/run_all.py)
-[![Eval-gate: CI](https://github.com/YOUR_USER/llmopsbench-8-phd/actions/workflows/ci.yml/badge.svg)](.github/workflows/ci.yml)
+[![Eval-gate: CI](https://github.com/M0-AR/llmopsbench-8-phd/actions/workflows/ci.yml/badge.svg)](https://github.com/M0-AR/llmopsbench-8-phd/actions)
+[![Star History](https://api.star-history.com/svg?repos=M0-AR/llmopsbench-8-phd&type=Date)](https://star-history.com/#M0-AR/llmopsbench-8-phd&Date)
 
 **LLMOps · RAG evaluation · prompt versioning · observability · cost control · PhD benchmark** · [Demo](#-demo-50-kb-gif--52-kb-video-real-output) · [Quick Start](#-quick-start-30-seconds) · [Benchmarks](#-benchmarks-verified-numbers) · [Docs](docs/BENCHMARK.md)
 
@@ -103,6 +104,6 @@ MIT — see [LICENSE](LICENSE). MIT is the 2026 plurality choice for OSS GitHub 
 
 - Abi Aryan, *What Is LLMOps?* (O'Reilly May 2024) — seed framework (safety / scalability / robustness, 8 steps).
 - 2026 field consensus triangulated from **24 sequential searches** (one-at-a-time, 429-safe, `lite.duckduckgo` fallback): llmbestpractices, llmops.report, dsstream, FutureAGI, HELM, Vectara HHEM/FaithJudge, MultiHop-RAG, TRIVIA+, Vendi-RAG, LangSmith/Langfuse, Qdrant-10B, charmbracelet/vhs, shields.io, AFFiNE-60k README pattern. Full log: [docs/VERIFICATION.md](docs/VERIFICATION.md). References: [docs/REFERENCES.md](docs/REFERENCES.md).
-- After push, replace `YOUR_USER` in badges + add star-history: `[![Star History](https://api.star-history.com/svg?repos=YOUR_USER/llmopsbench-8-phd&type=Date)](https://star-history.com/#YOUR_USER/llmopsbench-8-phd&Date)`.
+- Live repo: [M0-AR/llmopsbench-8-phd](https://github.com/M0-AR/llmopsbench-8-phd) — star-history badge above tracks momentum.
 
 *Last verified by execution: `pytest -q` 8 passed + `run_all.py` → `results/summary.json` (see [docs/BENCHMARK.md](docs/BENCHMARK.md)).*
