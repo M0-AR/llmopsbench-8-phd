@@ -1,0 +1,7 @@
+# LLMOpsBench-8-PhD
+
+> Verified end-to-end LLMOps benchmark (8 lifecycle steps → 8 measurable dimensions) for PhD research. Offline-first, no API keys, CI eval-gate.
+
+- Docs: README.md (quickstart), docs/BENCHMARK.md (spec), docs/RESEARCH.md (zero-to-hero), docs/VERIFICATION.md (24 searches), docs/DEMO.md (video repro), docs/PHD_OUTLINE.md (12-month plan)
+- Run: `pip install -r requirements.txt && pytest -q && python experiments/run_all.py`
+- License: MIT
