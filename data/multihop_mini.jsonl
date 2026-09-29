@@ -1,0 +1,3 @@
+{"id": "m1", "question": "Compare manifest vs prompt versioning and why both needed", "relevant_ids": ["d1", "d4"], "reference": "Manifest pins prompt model retrieval together for rollback."}
+{"id": "m2", "question": "Why did retrieval quality drop cause hallucination and cost rise", "relevant_ids": ["d2", "d5"], "reference": "Stale retrieval causes unsupported answers and larger contexts raise cost."}
+{"id": "m3", "question": "How do eval-gate and canary together prevent prompt regression from provider drift", "relevant_ids": ["d3", "d7", "d8"], "reference": "Eval-gate blocks bad prompts canary catches provider drift with rollback."}

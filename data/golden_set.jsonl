@@ -1,0 +1,50 @@
+{"id": "g01", "capability": "retrieval", "question": "What is LLMOps manifest?", "relevant_ids": ["d1"], "reference": "A manifest versions prompts models retrieval for rollback.", "critical": true}
+{"id": "g02", "capability": "grounding", "question": "How does RAG ground answers?", "relevant_ids": ["d2"], "reference": "RAG retrieves enterprise docs with vector search and reranking.", "critical": false}
+{"id": "g03", "capability": "citation", "question": "What blocks deploy on regression?", "relevant_ids": ["d3"], "reference": "Eval-gate on golden dataset blocks deploy on regression.", "critical": false}
+{"id": "g04", "capability": "refusal", "question": "What must a trace capture?", "relevant_ids": ["d4"], "reference": "Trace captures prompt version model pin tokens latency tool calls.", "critical": false}
+{"id": "g05", "capability": "cost", "question": "How to cut token cost?", "relevant_ids": ["d5"], "reference": "Route simple tasks to cheap models cache and cap tokens.", "critical": false}
+{"id": "g06", "capability": "latency", "question": "What do guardrails filter?", "relevant_ids": ["d6"], "reference": "Guardrails filter injection in and PII toxicity out with schema.", "critical": false}
+{"id": "g07", "capability": "safety", "question": "How to roll out safely?", "relevant_ids": ["d7"], "reference": "Canary 5 then 25 then 100 percent with shadow and rollback criteria.", "critical": false}
+{"id": "g08", "capability": "schema", "question": "Name four drifts.", "relevant_ids": ["d8"], "reference": "Data concept prompt and provider drift.", "critical": false}
+{"id": "g09", "capability": "retrieval", "question": "Corona example of what drift?", "relevant_ids": ["d9"], "reference": "Concept drift beer brand to virus.", "critical": false}
+{"id": "g10", "capability": "grounding", "question": "Tay lesson?", "relevant_ids": ["d10"], "reference": "Safety testing on rogue data needed Tay shut down in 24h.", "critical": false}
+{"id": "g11", "capability": "citation", "question": "What is LLMOps manifest?", "relevant_ids": ["d1"], "reference": "A manifest versions prompts models retrieval for rollback.", "critical": true}
+{"id": "g12", "capability": "refusal", "question": "How does RAG ground answers?", "relevant_ids": ["d2"], "reference": "RAG retrieves enterprise docs with vector search and reranking.", "critical": false}
+{"id": "g13", "capability": "cost", "question": "What blocks deploy on regression?", "relevant_ids": ["d3"], "reference": "Eval-gate on golden dataset blocks deploy on regression.", "critical": false}
+{"id": "g14", "capability": "latency", "question": "What must a trace capture?", "relevant_ids": ["d4"], "reference": "Trace captures prompt version model pin tokens latency tool calls.", "critical": false}
+{"id": "g15", "capability": "safety", "question": "How to cut token cost?", "relevant_ids": ["d5"], "reference": "Route simple tasks to cheap models cache and cap tokens.", "critical": false}
+{"id": "g16", "capability": "schema", "question": "What do guardrails filter?", "relevant_ids": ["d6"], "reference": "Guardrails filter injection in and PII toxicity out with schema.", "critical": false}
+{"id": "g17", "capability": "retrieval", "question": "How to roll out safely?", "relevant_ids": ["d7"], "reference": "Canary 5 then 25 then 100 percent with shadow and rollback criteria.", "critical": false}
+{"id": "g18", "capability": "grounding", "question": "Name four drifts.", "relevant_ids": ["d8"], "reference": "Data concept prompt and provider drift.", "critical": false}
+{"id": "g19", "capability": "citation", "question": "Corona example of what drift?", "relevant_ids": ["d9"], "reference": "Concept drift beer brand to virus.", "critical": false}
+{"id": "g20", "capability": "refusal", "question": "Tay lesson?", "relevant_ids": ["d10"], "reference": "Safety testing on rogue data needed Tay shut down in 24h.", "critical": false}
+{"id": "g21", "capability": "cost", "question": "What is LLMOps manifest?", "relevant_ids": ["d1"], "reference": "A manifest versions prompts models retrieval for rollback.", "critical": true}
+{"id": "g22", "capability": "latency", "question": "How does RAG ground answers?", "relevant_ids": ["d2"], "reference": "RAG retrieves enterprise docs with vector search and reranking.", "critical": false}
+{"id": "g23", "capability": "safety", "question": "What blocks deploy on regression?", "relevant_ids": ["d3"], "reference": "Eval-gate on golden dataset blocks deploy on regression.", "critical": false}
+{"id": "g24", "capability": "schema", "question": "What must a trace capture?", "relevant_ids": ["d4"], "reference": "Trace captures prompt version model pin tokens latency tool calls.", "critical": false}
+{"id": "g25", "capability": "retrieval", "question": "How to cut token cost?", "relevant_ids": ["d5"], "reference": "Route simple tasks to cheap models cache and cap tokens.", "critical": false}
+{"id": "g26", "capability": "grounding", "question": "What do guardrails filter?", "relevant_ids": ["d6"], "reference": "Guardrails filter injection in and PII toxicity out with schema.", "critical": false}
+{"id": "g27", "capability": "citation", "question": "How to roll out safely?", "relevant_ids": ["d7"], "reference": "Canary 5 then 25 then 100 percent with shadow and rollback criteria.", "critical": false}
+{"id": "g28", "capability": "refusal", "question": "Name four drifts.", "relevant_ids": ["d8"], "reference": "Data concept prompt and provider drift.", "critical": false}
+{"id": "g29", "capability": "cost", "question": "Corona example of what drift?", "relevant_ids": ["d9"], "reference": "Concept drift beer brand to virus.", "critical": false}
+{"id": "g30", "capability": "latency", "question": "Tay lesson?", "relevant_ids": ["d10"], "reference": "Safety testing on rogue data needed Tay shut down in 24h.", "critical": false}
+{"id": "g31", "capability": "safety", "question": "What is LLMOps manifest?", "relevant_ids": ["d1"], "reference": "A manifest versions prompts models retrieval for rollback.", "critical": true}
+{"id": "g32", "capability": "schema", "question": "How does RAG ground answers?", "relevant_ids": ["d2"], "reference": "RAG retrieves enterprise docs with vector search and reranking.", "critical": false}
+{"id": "g33", "capability": "retrieval", "question": "What blocks deploy on regression?", "relevant_ids": ["d3"], "reference": "Eval-gate on golden dataset blocks deploy on regression.", "critical": false}
+{"id": "g34", "capability": "grounding", "question": "What must a trace capture?", "relevant_ids": ["d4"], "reference": "Trace captures prompt version model pin tokens latency tool calls.", "critical": false}
+{"id": "g35", "capability": "citation", "question": "How to cut token cost?", "relevant_ids": ["d5"], "reference": "Route simple tasks to cheap models cache and cap tokens.", "critical": false}
+{"id": "g36", "capability": "refusal", "question": "What do guardrails filter?", "relevant_ids": ["d6"], "reference": "Guardrails filter injection in and PII toxicity out with schema.", "critical": false}
+{"id": "g37", "capability": "cost", "question": "How to roll out safely?", "relevant_ids": ["d7"], "reference": "Canary 5 then 25 then 100 percent with shadow and rollback criteria.", "critical": false}
+{"id": "g38", "capability": "latency", "question": "Name four drifts.", "relevant_ids": ["d8"], "reference": "Data concept prompt and provider drift.", "critical": false}
+{"id": "g39", "capability": "safety", "question": "Corona example of what drift?", "relevant_ids": ["d9"], "reference": "Concept drift beer brand to virus.", "critical": false}
+{"id": "g40", "capability": "schema", "question": "Tay lesson?", "relevant_ids": ["d10"], "reference": "Safety testing on rogue data needed Tay shut down in 24h.", "critical": false}
+{"id": "g41", "capability": "retrieval", "question": "What is LLMOps manifest?", "relevant_ids": ["d1"], "reference": "A manifest versions prompts models retrieval for rollback.", "critical": true}
+{"id": "g42", "capability": "grounding", "question": "How does RAG ground answers?", "relevant_ids": ["d2"], "reference": "RAG retrieves enterprise docs with vector search and reranking.", "critical": false}
+{"id": "g43", "capability": "citation", "question": "What blocks deploy on regression?", "relevant_ids": ["d3"], "reference": "Eval-gate on golden dataset blocks deploy on regression.", "critical": false}
+{"id": "g44", "capability": "refusal", "question": "What must a trace capture?", "relevant_ids": ["d4"], "reference": "Trace captures prompt version model pin tokens latency tool calls.", "critical": false}
+{"id": "g45", "capability": "cost", "question": "How to cut token cost?", "relevant_ids": ["d5"], "reference": "Route simple tasks to cheap models cache and cap tokens.", "critical": false}
+{"id": "g46", "capability": "latency", "question": "What do guardrails filter?", "relevant_ids": ["d6"], "reference": "Guardrails filter injection in and PII toxicity out with schema.", "critical": false}
+{"id": "g47", "capability": "safety", "question": "How to roll out safely?", "relevant_ids": ["d7"], "reference": "Canary 5 then 25 then 100 percent with shadow and rollback criteria.", "critical": false}
+{"id": "g48", "capability": "schema", "question": "Name four drifts.", "relevant_ids": ["d8"], "reference": "Data concept prompt and provider drift.", "critical": false}
+{"id": "g49", "capability": "retrieval", "question": "Corona example of what drift?", "relevant_ids": ["d9"], "reference": "Concept drift beer brand to virus.", "critical": false}
+{"id": "g50", "capability": "grounding", "question": "Tay lesson?", "relevant_ids": ["d10"], "reference": "Safety testing on rogue data needed Tay shut down in 24h.", "critical": false}

@@ -1,0 +1,20 @@
+name: eval-gate
+on:
+  pull_request:
+    paths: ['configs/**', 'src/**', 'experiments/**', 'data/**']
+  push:
+    branches: [main]
+jobs:
+  eval-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -r requirements.txt
+      - name: Unit tests (analogue of prompt regression suite)
+        run: pytest -q
+      - name: Full benchmark
+        run: python experiments/run_all.py --out results/summary.json
+      - name: Gate — fail on regression placeholders
+        run: python -c "import json; s=json.load(open('results/summary.json')); assert s['exp01_retrieval']['rerank']['recall@5']>=s['exp01_retrieval']['naive']['recall@5']-1e-9, 'retrieval regression'; assert s['exp06_e2e']['E_full_ops']['faith']>=s['exp06_e2e']['B_naive_RAG']['faith']-1e-9, 'faithfulness regression'; print('GATE PASS')"

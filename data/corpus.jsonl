@@ -1,0 +1,12 @@
+{"id": "d1", "text": "LLMOps versions prompts, models, retrieval configs and tracks them in a manifest for rollback.", "updated": "2026-09-01", "acl": "public"}
+{"id": "d2", "text": "RAG grounds answers in retrieved enterprise docs via vector search, reranking and permission-aware access.", "updated": "2026-09-10", "acl": "public"}
+{"id": "d3", "text": "Eval-gate runs golden dataset in CI and blocks deploy on regression. LLM-as-judge reaches 80-90 percent human agreement.", "updated": "2026-08-20", "acl": "public"}
+{"id": "d4", "text": "Observability traces prompt version, model pin, tokens, latency, tool calls and quality score per request.", "updated": "2026-09-15", "acl": "public"}
+{"id": "d5", "text": "Cost control routes simple tasks to cheap models, caches prefixes, caps tokens per request and alerts on cost per request.", "updated": "2026-09-12", "acl": "public"}
+{"id": "d6", "text": "Guardrails filter prompt injection on input and PII toxicity off-policy content on output with schema enforcement.", "updated": "2026-09-01", "acl": "public"}
+{"id": "d7", "text": "Deployment uses canary 5 percent then 25 percent then 100 percent with shadow mode and pre-written rollback criteria.", "updated": "2026-08-28", "acl": "public"}
+{"id": "d8", "text": "Drift includes data drift, concept drift, prompt drift and provider drift where vendor updates weights silently.", "updated": "2026-09-05", "acl": "public"}
+{"id": "d9", "text": "Corona meant beer brand before COVID pandemic now means virus, classic concept drift example.", "updated": "2026-01-01", "acl": "public"}
+{"id": "d10", "text": "Tay chatbot 2016 learned toxic language within 16 hours and was shut down within 24 hours, safety lesson.", "updated": "2024-01-01", "acl": "public"}
+{"id": "d11", "text": "EU AI Act fines up to 10 million euros or 2 percent global profits for breach of data privacy and AI rules.", "updated": "2026-01-01", "acl": "restricted"}
+{"id": "d12", "text": "Qdrant benchmarked AI search at 10 billion vector scale in September 2026.", "updated": "2026-09-03", "acl": "public"}

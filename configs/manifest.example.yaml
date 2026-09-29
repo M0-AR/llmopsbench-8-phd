@@ -1,0 +1,8 @@
+manifest_id: m-v1-2026-09-29
+prompt_version: v1
+model: cheap-8b
+retrieval_top_k: 5
+rerank: false
+max_tokens: 256
+model_pin: cheap-8b-2026-09-01
+notes: Initial pinned manifest. Floating aliases forbidden (provider drift protection).
